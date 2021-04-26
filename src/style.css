@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+button{
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 50px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.color-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap:20px;
+  width: 100%;
+}
+
+.cards{
+  height: 200px;
+  width: 200px;
+  background-color: red;
+}
+
+.c1{
+  opacity: 0.2;
+  transition: all 200ms;
+}
+.c2{
+  opacity: 0.4;
+  transition: all 400ms;
+}
+.c3{
+  opacity: 0.6;
+  transition: all 600ms;
+}
+.c4{
+  opacity: 0.8;
+  transition: all 800ms;
+}
+.c5{
+  opacity: 1;
+  transition: all 1000ms;
+}
